@@ -1,0 +1,22 @@
+.wrapperContent {
+  margin: 50px 0px;
+}
+
+.totalBooks {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.wrapperItems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: flex-start;
+  align-items: stretch;
+}
+
+.wraperBtn {
+  margin: 50px 0px;
+  text-align: center;
+}

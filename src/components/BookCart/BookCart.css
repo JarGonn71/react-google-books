@@ -1,0 +1,50 @@
+button.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButtonBase-root.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  min-height: 250px;
+  width: 100%;
+}
+.wrapperBoxBook {
+  padding: 10px;
+  margin: 10px;
+  background: gray;
+  width: 300px;
+  max-height: 450px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  text-decoration: none;
+  color: black;
+  overflow: hidden;
+  grid-row-gap: 15px;
+}
+
+.imageContainer--img {
+  /* width: 100%; */
+  min-width: 150px;
+}
+
+.infoContainer {
+  font-size: 18px;
+}
+
+.info__category {
+  text-align: start;
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+
+.info__avtor {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.itemAvtor {
+  margin-right: 5px;
+
+  opacity: 0.6;
+}
+
+.info__title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}

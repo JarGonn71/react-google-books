@@ -1,0 +1,30 @@
+.wrapperNavbar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  background: #80deea;
+  min-height: 380px;
+}
+
+.wrapperNavbar h1 {
+  margin: 50px;
+}
+.wrapperSearch {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.MuiFormControl-root.MuiTextField-root.searchInput.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 70%;
+  margin-right: 20px;
+}
+
+.wrapperCategoryAndSort {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+}

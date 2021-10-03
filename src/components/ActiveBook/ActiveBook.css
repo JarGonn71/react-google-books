@@ -1,0 +1,55 @@
+.wrapperActiveBook {
+  grid-template-columns: 1fr 1.2fr;
+  display: grid;
+  grid-template-rows: 1fr;
+  margin-top: 50px;
+  position: relative;
+}
+
+.btnClose {
+  position: absolute;
+}
+
+.imageBox {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  /* background: gray; */
+  min-height: 380px;
+}
+
+.imageBox img {
+  width: 100%;
+  padding: 15% 0%;
+  background: rgba(126, 124, 124, 0.51);
+}
+
+.infoBox {
+  padding: 30px;
+}
+
+.infoBox .info__categoryBox {
+  margin-bottom: 15px;
+}
+
+.infoBox .categoryItem {
+}
+
+.infoBox .info__title {
+  text-align: start;
+  margin-bottom: 15px;
+}
+
+.infoBox .info__avtorsBox {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.infoBox .avtorItem {
+  opacity: 0.7;
+  border-bottom: 2px solid gray;
+  margin-right: 10px;
+}
+
+.infoBox .info__description {
+}
